@@ -3,7 +3,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/wlusbar/API_Store_JavaReact_BackEnd/blob/main/store/LICENSE)
 
 ## Sobre o Projeto
-Essa aplicação foi desenvolvido durante o video tutorial utilizando **Java Spring e Spring MVC** para criação do servidor, **Spring Data JPA** para manipulação e persistência de dados, **Lombok** para geração de boilerplates e Postgres Driver para realizar a conexão com banco de dados Postgress.
+Essa aplicação foi desenvolvido durante o video tutorial utilizando **Java Spring e Spring MVC** para criação do servidor, e integração com uma **App React** desenvolvido em outro repositorio.
 
 Obs. As imagens utilizadas no projeto, foi adquirida aleatoriamente no google.com, commit em um repositorio privado e atribuido 7 dessas imagens nos insert no import.sql e 1 utilizado na collection do Postman. 
 

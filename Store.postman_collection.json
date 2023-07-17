@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "c2ab5340-5a01-4aab-9b4f-78a0f714e4c7",
+		"name": "Store",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5781433",
+		"_collection_link": "https://grey-shuttle-280178.postman.co/workspace/DSList_IntensivaoDevSuperiorMai~4f6f9501-837e-49e9-ac27-9ef3be3b1150/collection/5781433-c2ab5340-5a01-4aab-9b4f-78a0f714e4c7?action=share&creator=5781433&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Store",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"price\": 700 ,\r\n    \"title\" : \"Relogio Watch HD X7\" ,\r\n    \"image\": \"https://github.com/wlusbar/assets/blob/main/Store/assets/RelogioSmartWatchHD_X7.png\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

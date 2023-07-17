@@ -5,6 +5,8 @@
 ## Sobre o Projeto
 Essa aplicação foi desenvolvido durante o video tutorial utilizando **Java Spring e Spring MVC** para criação do servidor, **Spring Data JPA** para manipulação e persistência de dados, **Lombok** para geração de boilerplates e Postgres Driver para realizar a conexão com banco de dados Postgress.
 
+Obs. As imagens utilizadas no projeto, foi adquirida aleatoriamente no google.com, commit em um repositorio privado e atribuido 7 dessas imagens nos insert no import.sql e 1 utilizado na collection do Postman. 
+
 <h2 id="pre-requisites">💻 Requisitos</h2> 
 
 Para rodar esse projeto sua máquina deve ter um JDK instalado. O projeto foi criado em Java 17.
@@ -14,6 +16,40 @@ Para rodar esse projeto sua máquina deve ter um JDK instalado. O projeto foi cr
 Primeiro você deve clonar o repositório, acessar o diretorio e utilizar a IDE de sua preferencia. 
 Obs. O projeto foi implementado com a IDE Spring Tool Suite 4
 
+## Trechos de código
+
+### Plug-in Maven
+
+```xml
+<plugin>
+	<groupId>org.apache.maven.plugins</groupId>
+	<artifactId>maven-resources-plugin</artifactId>
+	<version>3.1.1</version> <!--$NO-MVN-MAN-VER$ -->
+</plugin>
+```
+
+### application-test.properties
+
+```
+# H2 Connection
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+
+# H2 Client
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+# Show SQL
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+```
+
+## Collections
+Para realizar o teste a API, foi utilizado uma collection no Postmam
+👉 [Link da Collection](https://github.com/wlusbar/API_Store_JavaReact_BackEnd/blob/main/Store.postman_collection.json)
+Esse tutorial será associado ao repositorio de desenvolvimento Front End
+
 ## Tecnologias Utilizadas
 - Spring Boot
   Com uso de bibliotecas
@@ -22,11 +58,6 @@ Obs. O projeto foi implementado com a IDE Spring Tool Suite 4
   - h2
   - dev Tools
   - Web
-
-## Collections
-Para realizar o teste a API, foi utilizado uma collection no Postmam
-👉 [Link da Collection](https://github.com/wlusbar/API_Store_JavaReact_BackEnd/blob/main/Store.postman_collection.json)
-Esse tutorial será associado ao repositorio de desenvolvimento Front End
 
 ## Autor
 - Wellington Luiz

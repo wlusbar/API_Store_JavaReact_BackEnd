@@ -2,6 +2,8 @@ package com.wlusbar.store.entities;
 
 
 
+import com.wlusbar.store.dto.ProductsRequestDTO;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,12 +21,20 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
-public class Products {
-
+public class Products {		
+		
 		@Id
 	    @GeneratedValue(strategy = GenerationType.IDENTITY)
 	    private Long id;
 	    private String title;
 	    private String image;
-	    private Integer price;
+	    private Integer price;	
+	    
+	    
+	    
+	    public Products(ProductsRequestDTO productsRequestDTO) {		
+	    	this.image = productsRequestDTO.image();
+	    	this.title = productsRequestDTO.title();
+	    	this.price = productsRequestDTO.price();	    	
+	    }
 }

@@ -7,16 +7,17 @@ Essa aplicação foi desenvolvido durante o video tutorial utilizando **Java Spr
 
 Obs. As imagens utilizadas no projeto, foi adquirida aleatoriamente no google.com, commit em um repositorio privado e atribuido 7 dessas imagens nos insert no import.sql e 1 utilizado na collection do Postman. 
 
-<h2 id="pre-requisites">💻 Requisitos</h2> 
+<h2>💻 Requisitos</h2> 
 
 Para rodar esse projeto sua máquina deve ter um JDK instalado. O projeto foi criado em Java 17.
 
-<h2 id="how-to-use"> 🚀 Instalando o projeto</h2>
+<h2> 🚀 Instalando o projeto</h2>
 
 Primeiro você deve clonar o repositório, acessar o diretorio e utilizar a IDE de sua preferencia. 
 Obs. O projeto foi implementado com a IDE Spring Tool Suite 4
 
-## Trechos de código
+## ![image](https://github.com/wlusbar/API_Store_JavaReact_BackEnd/assets/42124380/064b4d7f-6cc6-46f1-9f87-86b93b8251ad)
+Trechos de código
 
 ### Plug-in Maven
 
